@@ -1,0 +1,16 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-title>Example of Subscription</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<div>
+		<ion-button [routerLink]="['/author/jkr']"> JK Rowling </ion-button>
+		<ion-button [routerLink]="['/author/grrm']"> George R.R Martin </ion-button>
+		<ion-button [routerLink]="['/author/dg']"> Diana Gabaldon </ion-button>
+	</div>
+
+	<div>Current URL: {{currentURL}}</div>
+	<ion-button routerLink="/home">Home</ion-button>
+</ion-content>
